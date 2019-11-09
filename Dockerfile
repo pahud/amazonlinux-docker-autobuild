@@ -1,3 +1,3 @@
 FROM amazonlinux:latest
 
-RUN yum upgrade -y
+RUN yum -y --security update
